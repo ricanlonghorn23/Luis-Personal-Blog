@@ -1,6 +1,6 @@
 const toggleModeButton = document.getElementById("toggleMode");
 
-// Function to toggle light/dark mode
+/* Function to toggle light/dark mode*/
 toggleModeButton.addEventListener("click", function(event) {
     document.body.classList.toggle("dark-mode");
     event.preventDefault();
@@ -9,7 +9,7 @@ document.getElementById("mainButton").addEventListener("click", function(event) 
     window.location.href = "blog.html";
     event.preventDefault();
 });
-// Function to check and set initial mode based on local storage
+/* Function to check and set initial mode based on local storage*/
 function checkAndSetInitialMode() {
     const isDarkMode = localStorage.getItem("isDarkMode");
     if (isDarkMode === "true") {

@@ -1,7 +1,7 @@
 const toggleModeButton = document.getElementById("toggleMode");
 const blogPostsContainer = document.getElementById("blogPosts");
 
-// Function to toggle light/dark mode
+/* Function to toggle between light & dark mode */
 toggleModeButton.addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
 });
@@ -10,7 +10,7 @@ backButton.addEventListener("click", function() {
     window.location.href = 'index.html';
 });
 
-// Function to render blog posts from localStorage
+/* Function to render blog posts from localStorage*/
 function renderBlogPosts() {
     const blogs = JSON.parse(localStorage.getItem("blogs")) || [];
     blogPostsContainer.innerHTML = "";

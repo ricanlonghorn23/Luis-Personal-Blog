@@ -1,0 +1,88 @@
+/* Light Mode */
+header {
+    background-color: #d0cdcd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d0cdcd;
+    border-bottom: 1px solid ;
+    text-align: center;
+}
+#header {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    font: black;
+    overflow-wrap: break-word;
+}
+
+
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: black;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #222;
+    color: White;
+}
+
+.blog-post.dark-mode {
+    background-color: #444;
+    color: #fff;
+    
+}
+#toggleMode {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: 999; /* Ensure button is above other content */
+}
+
+#backButton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+footer {
+    position: fix; /* Position the footer absolutely */
+    bottom: 0; /* Align footer to the bottom of the page */
+    width: 100%; /* Ensure the footer spans the entire width */
+    background-color: #d0cdcd;
+    border-top: 1px solid #000000;
+    padding: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+ul li:last-child {
+    margin-right: 0;
+}

@@ -3,11 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Document</title>
+    <title>Luis's Personal Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/form.css"/>
+
 </head>
+<header id="header" class="display-3">Speak Your Mind Blog!</header>
 <body>
-    
-    <script src="./assets/script.js"></script>
+  <form id="blogForm" >
+    <h2 id="header" class="row justify-content-center pt-4">Tell me what is on your mind!</h2>
+    <button id="toggleMode">💡</button>
+    <button id="mainButton" href="blog.html">Main Blog</button>
+    <div class="text-center justify-content-center">
+        <label>Username</label>
+        <div>
+        <input id="username"></input>
+      </div>
+    </div>
+    <div class="text-center justify-content-center">
+        <label>Title</label>
+        <div>
+    <input id="title"></input>
+  </div>
+    </div>
+    <div class="text-center justify-content-center">
+        <label>Thoughts</label>
+        <div>
+    <textarea id="content"></textarea>
+  </div>
+    </div>
+    <div id="message"></div>
+    <div class="text-center justify-content-center">
+    <button Type="submit">Submit my thoughts!</button>
+    </div>
+  </form>
+  <Footer>
+    <p>Made with many ❤️️'s by Luis Aldaz</p>
+    </Footer>
+  <script src="assets/js/form.js"></script>
 </body>
 </html>

@@ -16,8 +16,8 @@ header {
 }
 
 body {
-    position: relative; /* Ensure relative positioning for absolute positioning of toggle button */
-    height: 100vh; /* Ensure body fills entire viewport */
+    position: relative; 
+    height: 100vh; 
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -70,12 +70,12 @@ body.dark-mode footer {
     color: #fff;
 }
 
-/* Toggle Mode Button */
+
 #toggleMode {
     position: absolute;
     top: 20px;
     right: 150px;
-    z-index: 999; /* Ensure button is above other content */
+    z-index: 999; 
 }
 #mainButton{
     position: absolute;
@@ -84,9 +84,9 @@ body.dark-mode footer {
     z-index: 999;
 }
 footer {
-    position: absolute; /* Position the footer absolutely */
-    bottom: 0; /* Align footer to the bottom of the page */
-    width: 100%; /* Ensure the footer spans the entire width */
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
     background-color: #d0cdcd;
     padding: 20px;
     border-top: 1px solid #000000;

@@ -54,7 +54,7 @@ body.dark-mode footer {
     position: absolute;
     top: 20px;
     right: 80px;
-    z-index: 999; /* Ensure button is above other content */
+    z-index: 999; 
 }
 
 #backButton{
@@ -64,9 +64,9 @@ body.dark-mode footer {
     z-index: 999;
 }
 footer {
-    position: fix; /* Position the footer absolutely */
-    bottom: 0; /* Align footer to the bottom of the page */
-    width: 100%; /* Ensure the footer spans the entire width */
+    position: fix; 
+    bottom: 0; 
+    width: 100%; 
     background-color: #d0cdcd;
     border-top: 1px solid #000000;
     padding: 20px;
@@ -80,7 +80,7 @@ footer {
 
 ul li {
     display: inline-block;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
 }
 
 ul li:last-child {

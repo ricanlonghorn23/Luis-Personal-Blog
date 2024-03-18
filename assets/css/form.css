@@ -1,0 +1,93 @@
+/* Light Mode */
+
+header {
+    background-color: #d0cdcd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+#header {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    position: relative; /* Ensure relative positioning for absolute positioning of toggle button */
+    height: 100vh; /* Ensure body fills entire viewport */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+}
+#username{
+    width: 35vw;
+    font-size: 22px;
+}
+#title{
+    width: 35vw;
+    font-size: 22px;
+}
+#content{
+    width: 50vw;
+    height: 300px;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #222;
+}
+
+.blog-post.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Toggle Mode Button */
+#toggleMode {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    z-index: 999; /* Ensure button is above other content */
+}
+#mainButton{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+footer {
+    position: absolute; /* Position the footer absolutely */
+    bottom: 0; /* Align footer to the bottom of the page */
+    width: 100%; /* Ensure the footer spans the entire width */
+    background-color: #d0cdcd;
+    padding: 20px;
+    border-top: 1px solid #000000;
+  }
